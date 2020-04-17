@@ -99,7 +99,7 @@ nav {
 /* About */
 
 #about {
-    padding: 6rem 0 4rem 0;
+    padding: 6rem 0 5rem 0;
     background-color: white;
 }
 
@@ -125,7 +125,23 @@ nav {
     color: white;
 }
 
-.h-line, .n-line {
+.heading3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 550;
+    color: #fa6800;
+}
+
+.heading4 {
+    font-size: 1.4rem;
+    font-weight: 550;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .075em;
+    margin-bottom: 0;
+}
+
+.h-line, .n-line, .m-line {
     width: 18%;
     border-top: 2px solid #fa6800;
     margin: 0;
@@ -133,6 +149,10 @@ nav {
 
 .n-line {
     border-top: 1px solid rgb(68, 68, 68);
+}
+
+.m-line {
+    border-top: 1px solid rgb(207, 206, 206);
 }
 
 .about-text {
@@ -152,7 +172,7 @@ nav {
     background-color: #232323;
 }
 
-.mt-6 {
+.mt-6, .mt-lg-6 {
     margin-top: 4rem;
 }
 
@@ -175,7 +195,19 @@ nav {
 /* Services */
 
 #services {
-    padding: 6rem 0;
+    padding: 6rem 0 7rem 0;
+}
+
+.mt-7 {
+    margin-top: 5rem;
+}
+
+.mt-10 {
+    margin-top: 10rem;
+}
+
+.mt-11 {
+    margin-top: 10rem;
 }
 
 .card-wrap {
@@ -186,4 +218,98 @@ nav {
 
 .s-image {
     width: 60%;
+}
+
+.px-xl-6 {
+    padding-left: 4.5rem;
+    padding-right: 3rem;
+}
+
+.pr-xl-6 {
+    padding-right: 4.5rem;
+}
+
+.pl-xl-6 {
+    padding-left: 4.5rem;
+}
+
+/* Partners */
+
+#partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.phw, .pw {
+    background-color: #232323;
+    padding: 5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pw {
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.partner-logo {
+    width: 85%;
+}
+
+/* Portfolio */
+
+#portfolio {
+    padding: 6rem 0 7rem 0;
+    background-color: whitesmoke;
+}
+
+.pi-card {
+    position: relative;
+    box-shadow: 1px 4px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.p-thumbnail {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fa6800d0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.pi-card:hover .overlay {
+    height: 100%;
+}
+
+.pi-text {
+    white-space: nowrap;
+    color: white;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.pi-heading {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+#blog {
+    padding: 6rem 0;
+    background-color: #505050;
 }
