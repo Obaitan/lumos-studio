@@ -309,7 +309,72 @@ nav {
     font-weight: 550;
 }
 
+/* Blog */
+
 #blog {
-    padding: 6rem 0;
+    padding: 6rem 0 8rem 0;
     background-color: #505050;
+}
+
+/* Contact */
+
+#contact {
+    padding: 6rem 0;
+}
+
+.caption {
+    font-family: 'Arimo', sans-serif;
+    font-size: 1.15rem;
+    text-transform: capitalize;
+    color: #fa6800;
+}
+
+.text3 {
+    font-family: 'Questrial', sans-serif;
+    font-size: .95rem;
+    color: #4e4d4d;
+}
+
+.material-icons {
+    font-size: 30px !important;
+    color: #232323;
+    position: relative;
+}
+
+.fab, .fas {
+    font-size: 1.65rem !important;
+}
+
+.icon-link {
+    color: #232323 !important;
+    text-decoration: none !important;
+    text-align: center;
+}
+
+.ring {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
+    background-color: #d4d9df;
+}
+
+.icon-link:hover {
+    color: #fa6800 !important;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #232323;
+    padding: 1.5rem;
+    text-align: center
+}
+
+.info {
+    font-family: 'Arimo', sans-serif;
+    font-size: .95rem;
+    color: wheat;
 }
