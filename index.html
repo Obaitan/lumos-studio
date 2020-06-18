@@ -1,496 +1,1019 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Lumos Studio is an information technology solutions company that provides simple, high-impact web development and branding solutions. Our mission is to bring the benefits of information technology to small business owners and all else in need of these solutions."
+    />
+    <meta
+      name="keywords"
+      content="Web, Mobile, Tablet, Digital, Design, Online Payment, IT, Software Development, USSD, Corporate Branding, Innovation, Creativity, Ideas, HTML5, CSS, JavaScript, JQuery, Ajax, Python, Django, PHP, Marketing, Email, Information Technology, Programming, Bootstrap"
+    />
+    <title>Lumos Studio | IT Solutions Company</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/Ls-flavicon.png" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Heebo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Coustar&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="description"
-    content="Lumos Studio is an information technology solutions company that aims to provide simple, high-impact solutions that meet the needs of clients, big and small, across all corporate sectors in Nigeria. Our mission is to bring the benefits of IT to the small business owner and all else in need of these solutions. We try to do this by being empathetic to our clients' needs while being sensitive to their budgets.">
-  <meta name="keywors"
-    content="Web, Mobile, Digital, Design, Banking, IT, Software, Development, SMS, USSD, Branding, Innovativeness, Innovation, Creativity, Ideas, HTML5, CSS, Marketing, Email, Schools, Hospitals, Hotels, Hospitality">
-  <title>Lumos Studio - An IT Solutions Company</title>
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/png" href="img/Ls-flavicon.png" />
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-  <!-- Fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-  <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Coustar&display=swap" rel="stylesheet">
-  <!-- fonts -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
-
-  <!-- Bootstrap core CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
-  <!-- AOS -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <!-- Custom css -->
-  <link rel="stylesheet" href="css/main.css">
-</head>
-
-<body>
-
-  <!-- Project Code-->
-  <div class="container-fluid app-wrapper p-0">
-    <div id="home">
-      <div class="col-xs-12 col-xl-8 t-half">
-        <div class="c-wrap" data-aos="fade-up">
-          <p class="large mb-0">Lumos <span class="white-text">Studio</span>
-          </p>
-          <p class="logo-text">Software Solutions | Branding</p>
-          <div class="btn-wrap">
-            <a class="btn btn-light" href="#contact" role="button">Reach Us</a>
-          </div>
+  <body>
+    <div class="container-fluid app-wrapper p-0">
+      <div id="sidebar">
+        <div class="nav" id="nav">
+          <ul id="menu">
+            <li>
+              <a href="#home" class="nav-link one active-menu-item">Home</a>
+            </li>
+            <li><a href="#about" class="nav-link two">About</a></li>
+            <li><a href="#services" class="nav-link three">Services</a></li>
+            <li><a href="#portfolio" class="nav-link four">Portfolio</a></li>
+            <!-- <li><a href="#free" class="nav-link five">Freebies & Fun</a></li> -->
+            <li><a href="#contact" class="nav-link six">Contact</a></li>
+          </ul>
         </div>
       </div>
-      <div class="col-xs-12 col-xl-5"></div>
-    </div>
-
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <!-- Navbar brand -->
-      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-
-      <!-- Collapse button -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-        aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="basicExampleNav">
-        <!-- Links -->
-        <ul class="navbar-nav mx-auto">
-          <!-- <li class="nav-item active">
-            <a class="nav-link" href="#home">Home</a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#blog">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-        <!-- Links -->
-    </nav>
-    <!--/.Navbar-->
-
-    <div id="about" class="container-fluid">
-      <div class="container">
-        <div class="heading-wrap">
-          <p class="heading">About Us</p>
-          <hr class="h-line">
-        </div>
-        <div class="d-flex justify-content-center align-items-center flex-wrap">
-          <div class="col-12 col-xl-6 pr-0 pr-xl-5" data-aos="fade-up">
-            <p class="about-text px-2 px-xl-0">
-              Lumos Studio is an information technology solutions company that aims to provide simple,
-              high-impact solutions that meet
-              the needs of clients, big and small, across all corporate sectors in Nigeria.</p>
-
-            <p class="about-text px-2 px-xl-0">Our mission is to
-              bring the benefits of Information
-              Technology
-              to the small business owner and all else in need of these solutions. We try to do this by being
-              empathetic to our
-              clients' needs while being sensitive to their budgets.</p>
-            <p class="about-text px-2 px-xl-0">We will be happy to hear from you!</p>
-          </div>
-          <div class="col-12 col-xl-6 px-2 px-md-5 pl-xl-5 mt-2 mt-xl-0" data-aos="fade-left" data-aos-delay="750">
-            <img src="img/undraw_finance.png" class="l-graphic" alt="Software development graphic.">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid us">
-      <div class="container">
-        <div class="heading-wrap">
-          <p class="heading" style="color: white;">Why Us?</p>
-          <hr class="n-line">
-        </div>
-        <div class="d-flex flex-wrap jusify-content-center mt-0 mt-lg-6" data-aos="fade-up">
-          <div class="unit col-12 col-md-6 col-lg-3 mt-5 mt-lg-0">
-            <img src="img/svg/Fast.svg" class="unit-icon" alt="Image graphics for fast service.">
-            <div class="mt-4">
-              <p class="heading2 mb-0">Fast</p>
-              <p class="words">Fast and interactive applications</p>
-            </div>
-          </div>
-          <div class="unit col-12 col-md-6 col-lg-3 mt-5 mt-lg-0">
-            <img src="img/svg/intuitive.svg" class="unit-icon" alt="Image graphics for fast service.">
-            <div class="mt-4">
-              <p class="heading2 mb-0">Intuitive</p>
-              <p class="words">UI/UX - friendly interface designs</p>
-            </div>
-          </div>
-          <div class="unit col-12 col-md-6 col-lg-3 mt-5 mt-lg-0">
-            <img src="img/svg/Responsive.svg" class="unit-icon" alt="Image graphics for fast service.">
-            <div class="mt-4">
-              <p class="heading2 mb-0">Responsive</p>
-              <p class="words">Layouts that work on all devices</p>
-            </div>
-          </div>
-          <div class="unit col-12 col-md-6 col-lg-3 mt-5 mt-lg-0">
-            <img src="img/svg/Robust.svg" class="unit-icon" alt="Image graphics for fast service.">
-            <div class="mt-4">
-              <p class="heading2 mb-0">Robust</p>
-              <p class="words">Comprehensive software solutions</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="services" class="container">
-      <div class="heading-wrap">
-        <p class="heading">Services</p>
-        <hr class="h-line">
-      </div>
-      <div class="d-flex justify-content-center align-items-center flex-wrap mt-7">
-        <div class="col-12 col-xl-6 px-5 pl-xl-1 pr-xl-5" data-aos="fade-right">
-          <img src="img/undraw_finance.png" class="l-graphic" alt="Software development graphic.">
-        </div>
-        <div class="col-12 col-xl-6 px-5 px-xl-6 mt-3 mt-md-5 mt-xl-0 text-center text-xl-start" data-aos="fade-up"
-          data-aos-delay="900">
-          <p class="heading3 mb-2">The Robust Deal</p>
-          <p class="about-text">
-            Lumos Studio is an information technology solutions company that aims to provide simple,
-            high-impact solutions that meet
-            the needs of clients, big and small, across all corporate sectors in Nigeria.</p>
-        </div>
-      </div>
-
-      <div class="d-flex justify-content-center align-items-center flex-wrap mt-10">
-        <div class="col-12 col-xl-6 px-5 pl-xl-1 pr-xl-6 mt-3 mt-md-5 mt-xl-0 text-center text-xl-start"
-          data-aos="fade-up">
-          <p class="heading3 mb-2">The Robust Deal</p>
-          <p class="about-text">
-            Lumos Studio is an information technology solutions company that aims to provide simple,
-            high-impact solutions that meet
-            the needs of clients, big and small, across all corporate sectors in Nigeria.</p>
-        </div>
-        <div class="col-12 col-xl-6 px-5 pr-xl-1 pl-xl-6 order-first order-xl-last" data-aos="fade-left"
-          data-aos-delay="900">
-          <img src="img/undraw_finance.png" class="l-graphic" alt="Software development graphic.">
-        </div>
-      </div>
-
-      <div class="d-flex justify-content-center align-items-center flex-wrap mt-10">
-        <div class="col-12 col-xl-6 px-5 pl-xl-1 pr-xl-5" data-aos="fade-right">
-          <img src="img/undraw_finance.png" class="l-graphic" alt="Software development graphic.">
-        </div>
-        <div class="col-12 col-xl-6 px-5 px-xl-6 mt-3 mt-md-5 mt-xl-0 text-center text-xl-start" data-aos="fade-up"
-          data-aos-delay="900">
-          <p class="heading3 mb-2">The Robust Deal</p>
-          <p class="about-text">
-            Lumos Studio is an information technology solutions company that aims to provide simple,
-            high-impact solutions that meet
-            the needs of clients, big and small, across all corporate sectors in Nigeria.</p>
-        </div>
-      </div>
-
-      <div class="d-flex justify-content-center align-items-center flex-wrap mt-10">
-        <div class="col-12 col-xl-6 px-5 pl-xl-1 pr-xl-6 mt-3 mt-md-5 mt-xl-0 text-center text-xl-start"
-          data-aos="fade-up">
-          <p class="heading3 mb-2">The Robust Deal</p>
-          <p class="about-text">
-            Lumos Studio is an information technology solutions company that aims to provide simple,
-            high-impact solutions that meet
-            the needs of clients, big and small, across all corporate sectors in Nigeria.</p>
-        </div>
-        <div class="col-12 col-xl-6 px-5 pr-xl-1 pl-xl-6 order-first order-xl-last" data-aos="fade-left"
-          data-aos-delay="900">
-          <img src="img/undraw_finance.png" class="l-graphic" alt="Software development graphic.">
-        </div>
-      </div>
-    </div>
-
-    <div id="partners" class="container-fluid px-0">
-      <div class="col-12 col-xl-3 phw">
-        <p class="heading4" data-aos="zoom-in">Partners</p>
-      </div>
-      <div
-        class="col-12 col-xl-9 pw d-flex justify-content-start justify-content-md-around flex-wrap align-items-center"
-        data-aos="fade-left" data-aos-delay="1200">
-        <div class="col-6 col-md-2 my-2 my-md-1">
-          <img src="img/svg/algora-logo.svg" class="partner-logo" alt="Partners logo">
-        </div>
-        <div class="col-6 col-md-2 my-2 my-md-1">
-          <img src="img/svg/jackland-logo.svg" class="partner-logo" alt="Partners logo">
-        </div>
-        <div class="col-6 col-md-2 my-3 my-md-1">
-          <img src="img/svg/tandequip.svg" class="partner-logo" alt="Partners logo">
-        </div>
-        <div class="col-6 col-md-2 my-3 my-md-1">
-          <img src="img/svg/ifinity-logo.svg" class="partner-logo" alt="Partners logo">
-        </div>
-        <div class="col-6 col-md-2 my-2 my-md-1">
-          <img src="img/svg/foursquare-logo.svg" class="partner-logo" alt="Partners logo">
-        </div>
-      </div>
-    </div>
-
-    <div id="portfolio" class="container-fluid px-0">
-      <div class="container">
-        <div class="heading-wrap">
-          <p class="heading">Portfolio</p>
-          <hr class="h-line">
-        </div>
-        <div class="portfolio-images row row-cols-1 row-cols-md-2 row-cols-xl-3 mt-lg-6">
-          <div data-aos="fade-up">
-            <div class="pi-card m-2 mx-xl-1">
-              <img src="img/algora-main.jpg" class="p-thumbnail" alt="Portfolio image">
-              <div class="overlay">
-                <div class="pi-text">
-                  <p class="pi-heading mb-0">Algora Solutions</p>
-                  <p class="pi-body">An innovative software solutions company</p>
-                  <div>
-                    <a class="btn btn-light btn-sm ml-0" href="about.html" type="link">Learn More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div data-aos="fade-up">
-            <div class="pi-card m-2 mx-xl-1">
-              <img src="img/fuelpay-main.jpg" class="p-thumbnail" alt="Portfolio image">
-              <div class="overlay">
-                <div class="pi-text">
-                  <p class="pi-heading mb-0">Fuelpay Solutions</p>
-                  <p class="pi-body">A Telemetry and Telematic solutions company</p>
-                  <div>
-                    <a class="btn btn-light btn-sm ml-0" href="about.html" type="link">Learn More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div data-aos="fade-up">
-            <div class="pi-card m-2 mx-xl-1">
-              <img src="img/jackland-main.jpg" class="p-thumbnail" alt="Portfolio image">
-              <div class="overlay">
-                <div class="pi-text">
-                  <p class="pi-heading mb-0">Jackland Engineering</p>
-                  <p class="pi-body">An engineering construction and services company</p>
-                  <div>
-                    <a class="btn btn-light btn-sm ml-0" href="about.html" type="link">Learn More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div data-aos="fade-up" data-aos-delay="600">
-            <div class="pi-card m-2 mx-xl-1">
-              <img src="img/webinar-main.jpg" class="p-thumbnail" alt="Portfolio image">
-              <div class="overlay">
-                <div class="pi-text">
-                  <p class="pi-heading mb-0">HTML Temlates</p>
-                  <p class="pi-body">Modern email and newletter templates</p>
-                  <div>
-                    <a class="btn btn-light btn-sm ml-0" href="about.html" type="link">Learn More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div data-aos="fade-up" data-aos-delay="600">
-            <div class="pi-card m-2 mx-xl-1">
-              <img src="img/papers-main.PNG" class="p-thumbnail" alt="Portfolio image">
-              <div class="overlay">
-                <div class="pi-text">
-                  <p class="pi-heading mb-0">Particulars.ng</p>
-                  <p class="pi-body">A vehicle documentation solutions company</p>
-                  <div>
-                    <a class="btn btn-light btn-sm ml-0" href="about.html" type="link">Learn More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div data-aos="fade-up" data-aos-delay="600">
-            <div class="pi-card m-2 mx-xl-1">
-              <img src="img/jackland-main.jpg" class="p-thumbnail" alt="Portfolio image">
-              <div class="overlay">
-                <div class="pi-text">
-                  <p class="pi-heading mb-0">Jackland Engineering</p>
-                  <p class="pi-body">An engineering solutions company</p>
-                  <div>
-                    <a class="btn btn-light btn-sm ml-0" href="about.html" type="link">Learn More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-
-    <div id="blog" class="container-fluid px-0">
-      <div class="container">
-        <div class="heading-wrap">
-          <p class="heading" style="color: white;">Blog</p>
-          <hr class="m-line">
-        </div>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
-          <div data-aos="fade-up">
-            <div class="card m-3">
-              <img class="card-img-top" src="img/hero-image.png" alt="Card image cap">
-              <div class="card-body">
-                <h4 class="card-title"><a>Card title</a></h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="btn btn-primary">Button</a>
-              </div>
-            </div>
-          </div>
-
-          <div data-aos="fade-up" data-aos-delay="600">
-            <div class="card m-3">
-              <img class="card-img-top" src="img/hero-image.png" alt="Card image cap">
-              <div class="card-body">
-                <h4 class="card-title"><a>Card title</a></h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="btn btn-primary">Button</a>
-              </div>
-            </div>
-          </div>
-
-          <div data-aos="fade-up" data-aos-delay="900">
-            <div class="card m-3">
-              <img class="card-img-top" src="img/hero-image.png" alt="Card image cap">
-              <div class="card-body">
-                <h4 class="card-title"><a>Card title</a></h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="btn btn-primary">Button</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="contact">
-      <div class="container">
-        <div class="heading-wrap">
-          <p class="heading">Reach Us</p>
-          <hr class="h-line">
-        </div>
-        <div class="row row-cols-1 row-cols-md-2">
+      <div id="home">
+        <div class="col-xl-8 half-mask">
           <div>
-            <div class="d-flex justify-content-center justify-content-md-end my-2 mx-3" data-aos="fade-up">
-              <div class="c-ways mx-3">
-                <a href="mailto:hello@particulars.ng" class="icon-link" target="_blank">
-                  <div class="ring"><i class="fas fa-envelope"></i></div>
-                  <p class="my-1">Email</p>
-                </a>
-              </div>
-              <div class="mx-3 mx-md-5">
-                <a href="https://linkedin.com/in/particularsng" class="icon-link" target="_blank">
-                  <div class="ring"><i class="fab fa-linkedin-in"></i></div>
-                  <p class="my-1">LinkedIn</p>
-                </a>
-              </div>
+            <div class="d-flex justify-content-center mb-2">
+              <img src="img/svg/logo.svg" class="w-50" alt="Company logo" />
+            </div>
+            <p class="bold mb-0">
+              Lumos <span class="text-white">Studio</span>
+            </p>
+            <p class="logo-text">Software Solutions | Branding</p>
+            <div>
+              <a class="btn btn-white ml-0" href="#contact" role="button"
+                >Contact Us</a
+              >
             </div>
           </div>
-
-          <div class="mt-3 mt-md-0">
-            <div class="d-flex justify-content-between flex-wrap my-2 mx-3">
-              <div class="col-12 col-lg-6 px-0" data-aos="fade-left" data-aos-delay="900">
-                <div class="media">
-                  <i class="material-icons">place</i>
-                  <div class="media-body ml-2">
-                    <p class="caption my-0">Office</p>
-                    <p class="text3">
-                      21, Raji Oba Street, Alimosho, off Ipaja Road, Olorun Adaba, Egbeda, Lagos
+        </div>
+      </div>
+      <div class="boundary"></div>
+      <div id="about">
+        <div class="container">
+          <div class="d-flex justify-content-center flex-wrap">
+            <div class="col-lg-5">
+              <div class="d-flex justify-content-center mb-2">
+                <hr class="top-line mr-2" />
+                <h3 class="section-title">About Us</h3>
+              </div>
+              <div class="mt-4">
+                <p class="about-text">
+                  <span class="highlight" style="font-weight: 600;"
+                    >Lumos Studio</span
+                  >
+                  is an information technology solutions company that provides
+                  simple, high-impact web development and branding solutions.
+                </p>
+                <p class="about-text">
+                  Our mission is to bring the benefits of information technology
+                  to small business owners and all else in need of these
+                  solutions. We try to do this while working within our clients'
+                  budgets.
+                </p>
+                <div>
+                  <a role="button" class="btn btn-lumos ml-0" href="#contact"
+                    >Reach us today!</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7 mt-5 mt-lg-0 px-0">
+              <div class="d-flex justify-content-center mb-2">
+                <hr class="top-line2 mr-2" />
+                <h3 class="section-title2">Why Us?</h3>
+              </div>
+              <div class="mt-4 pt-1">
+                <div
+                  class="d-flex justify-content-start align-items-center tile mx-auto py-3 px-3 px-md-5 my-1"
+                >
+                  <div>
+                    <img
+                      src="img/svg/Fast.svg"
+                      width="90"
+                      alt="About us icons"
+                      class="tile-image"
+                    />
+                  </div>
+                  <div class="ml-2 ml-md-3">
+                    <p class="cap mb-0">Fast</p>
+                    <p class="words mb-0">
+                      Fast and interactive applications
                     </p>
                   </div>
                 </div>
-                <div class="media mt-2">
-                  <i class="material-icons">call</i>
-                  <div class="media-body ml-2">
-                    <p class="caption my-0">Phone</p>
-                    <p class="text3">+234 909 457 9350</p>
+
+                <div
+                  class="d-flex justify-content-start align-items-center tile mx-auto py-3 px-3 px-md-5 my-1"
+                >
+                  <div>
+                    <img
+                      src="img/svg/intuitive.svg"
+                      width="90"
+                      alt="About us icons"
+                      class="tile-image"
+                    />
+                  </div>
+                  <div class="ml-2 ml-md-3">
+                    <p class="cap mb-0">Intuitive</p>
+                    <p class="words mb-0">
+                      UI/UX - friendly interface designs
+                    </p>
                   </div>
                 </div>
-              </div>
 
-              <div class="media col-12 col-lg-6 px-0 pl-lg-4 pl-xl-5 mt-2 mt-lg-0" data-aos="fade-left"
-                data-aos-delay="1800">
-                <i class="material-icons">public</i>
-                <div class="media-body ml-2">
-                  <p class="caption my-0">Web</p>
-                  <p class="text3">
-                    hello@lumosstudio.ng<br>www.lumosstudio.ng
-                  </p>
+                <div
+                  class="d-flex justify-content-start align-items-center tile mx-auto py-3 px-3 px-md-5 my-1"
+                >
+                  <div>
+                    <img
+                      src="img/svg/Responsive.svg"
+                      width="90"
+                      alt="About us icons"
+                      class="tile-image"
+                    />
+                  </div>
+                  <div class="ml-2 ml-md-3">
+                    <p class="cap mb-0">Responsive</p>
+                    <p class="words mb-0">
+                      Layouts that work on all devices
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="d-flex justify-content-start align-items-center tile mx-auto py-3 px-3 px-md-5 my-1"
+                >
+                  <div>
+                    <img
+                      src="img/svg/Robust.svg"
+                      width="90"
+                      alt="About us icons"
+                      class="tile-image"
+                    />
+                  </div>
+                  <div class="ml-2 ml-md-3">
+                    <p class="cap mb-0">Robust</p>
+                    <p class="words mb-0">
+                      Comprehensive software solutions
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="footer">
-      <div id="copyright p-0">
-        <p class="info mb-0">Lumos Studio &copy;
-          <script>document.write(new Date().getFullYear());</script>
-        </p>
+      <div id="services">
+        <div class="col-lg-4 col-xl-3 dark">
+          <p class="section-title text-white mb-0">Our Services</p>
+        </div>
+        <div class="container mt-5 pt-2">
+          <div class="d-flex justify-content-center flex-wrap p-0">
+            <div class="col-lg-6 p-0">
+              <div class="px-3 d-none d-lg-block">
+                <div class="lumos"></div>
+              </div>
+              <div class="p-3">
+                <div class="pale">
+                  <div>
+                    <img
+                      src="img/svg/24hr-delivery.svg"
+                      alt="Service graphic"
+                      class="w-75"
+                    />
+                  </div>
+
+                  <div class="mt-4">
+                    <p>Web Development & Hosting</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-3">
+                <div class="pale">
+                  <div>
+                    <img
+                      src="img/svg/24hr-delivery.svg"
+                      alt="Service graphic"
+                      class="w-75"
+                    />
+                  </div>
+
+                  <div class="mt-4">
+                    <p>Enterprise Solutions</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 p-0">
+              <div class="px-3 pb-3 pt-3 pt-lg-0">
+                <div class="pale">
+                  <div>
+                    <img
+                      src="img/svg/24hr-delivery.svg"
+                      alt="Service graphic"
+                      class="w-75"
+                    />
+                  </div>
+
+                  <div class="mt-4">
+                    <p>Branding Solutions</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-3">
+                <div class="pale">
+                  <div>
+                    <img
+                      src="img/svg/24hr-delivery.svg"
+                      alt="Service graphic"
+                      class="w-75"
+                    />
+                  </div>
+
+                  <div class="mt-4">
+                    <p>Customized HTML Templates</p>
+                  </div>
+                </div>
+              </div>
+              <div class="px-3 d-none d-lg-block">
+                <div class="lumos-dark"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="portfolio">
+        <div class="container">
+          <div class="d-flex justify-content-center mb-2">
+            <hr class="top-line mr-2" />
+            <h3 class="section-title">Portfolio</h3>
+          </div>
+          <div class="sh-text text-center mb-0">
+            <p class="mb-0">
+              See below some of our recent work. Contact us for your
+              <span class="highlight">Web Development</span> and
+              <span class="highlight">Branding</span> projects.
+            </p>
+          </div>
+          <div class="d-flex justify-content-center px-1">
+            <div class="col-1 d-none d-lg-flex"></div>
+            <div class="row row-cols-1 row-cols-md-2 mt-5">
+              <div class="p-2">
+                <div class="pi-card">
+                  <img
+                    src="img/paper-1.jpg"
+                    class="w-100"
+                    alt="Portfolio image"
+                  />
+                  <div class="overlay">
+                    <div class="pi-text">
+                      <p class="pi-heading">Particulars.ng</p>
+                      <div>
+                        <a
+                          class="btn btn-white btn-sm ml-0"
+                          href=""
+                          type="button"
+                          data-toggle="modal"
+                          data-target="#paperModal"
+                          >More</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-2">
+                <div class="pi-card">
+                  <img
+                    src="img/jackland-1.jpg"
+                    class="w-100"
+                    alt="Portfolio image"
+                  />
+                  <div class="overlay">
+                    <div class="pi-text">
+                      <p class="pi-heading">Jackland Engineering</p>
+                      <div>
+                        <a
+                          class="btn btn-white btn-sm ml-0"
+                          href=""
+                          type="button"
+                          data-toggle="modal"
+                          data-target="#jacklandModal"
+                          >More</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-2">
+                <div class="pi-card">
+                  <img
+                    src="img/algora-1.jpg"
+                    class="w-100"
+                    alt="Portfolio image"
+                  />
+                  <div class="overlay">
+                    <div class="pi-text">
+                      <p class="pi-heading">Algora Solutions</p>
+                      <div>
+                        <a
+                          class="btn btn-white btn-sm ml-0"
+                          href=""
+                          type="button"
+                          data-toggle="modal"
+                          data-target="#algoraModal"
+                          >More</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-2">
+                <div class="pi-card">
+                  <img
+                    src="img/paper-1.jpg"
+                    class="w-100"
+                    alt="Portfolio image"
+                  />
+                  <div class="overlay">
+                    <div class="pi-text">
+                      <p class="pi-heading">CAD Made Easy</p>
+                      <div>
+                        <a
+                          class="btn btn-white btn-sm ml-0"
+                          href=""
+                          type="button"
+                          data-toggle="modal"
+                          data-target="#cmeModal"
+                          >More</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1 d-none d-lg-flex"></div>
+          </div>
+
+          <!-- Modals -->
+          <div
+            class="modal fade"
+            id="paperModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div
+              class="modal-dialog modal-dialog-centered modal-lg"
+              role="document"
+            >
+              <div class="modal-content">
+                <div class="modal-header mb-2 p-0">
+                  <div
+                    id="carousel"
+                    class="carousel slide"
+                    data-ride="carousel"
+                    data-interval="2000"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          class="d-block w-100"
+                          src="img/paper-1.jpg"
+                          alt="First slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/paper-2.jpg"
+                          alt="Second slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/paper-3.jpg"
+                          alt="Third slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/paper-4.jpg"
+                          alt="Fourth slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/paper-5.jpg"
+                          alt="Fifth slide"
+                        />
+                      </div>
+                    </div>
+                    <a
+                      class="carousel-control-prev"
+                      href="#carousel"
+                      role="button"
+                      data-slide="prev"
+                    >
+                      <img
+                        src="img/svg/left-control.svg"
+                        width="20"
+                        height="20"
+                        alt="Carousel control icon"
+                      />
+                    </a>
+                    <a
+                      class="carousel-control-next"
+                      href="#carousel"
+                      role="button"
+                      data-slide="next"
+                    >
+                      <img
+                        src="img/svg/right-control.svg"
+                        width="20"
+                        height="20"
+                        alt="Carousel control icon"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="modal-body text-center px-3 px-lg-5">
+                  <p class="pc-text highlight mb-1">
+                    Particulars.ng
+                  </p>
+                  <div class="text-right">
+                    <button
+                      type="button"
+                      class="btn btn-mdb-color btn-sm ml-0"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="modal fade"
+            id="jacklandModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div
+              class="modal-dialog modal-dialog-centered modal-lg"
+              role="document"
+            >
+              <div class="modal-content">
+                <div class="modal-header mb-2 p-0">
+                  <div
+                    id="carousel2"
+                    class="carousel slide"
+                    data-ride="carousel"
+                    data-interval="2000"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          class="d-block w-100"
+                          src="img/jackland-1.jpg"
+                          alt="First slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/jackland-2.jpg"
+                          alt="Second slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/jackland-3.jpg"
+                          alt="Third slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/jackland-4.jpg"
+                          alt="Fourth slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/jackland-5.jpg"
+                          alt="Fifth slide"
+                        />
+                      </div>
+                    </div>
+                    <a
+                      class="carousel-control-prev"
+                      href="#carousel2"
+                      role="button"
+                      data-slide="prev"
+                    >
+                      <img
+                        src="img/svg/left-control.svg"
+                        width="20"
+                        height="20"
+                        alt="Carousel control icon"
+                      />
+                    </a>
+                    <a
+                      class="carousel-control-next"
+                      href="#carousel2"
+                      role="button"
+                      data-slide="next"
+                    >
+                      <img
+                        src="img/svg/right-control.svg"
+                        width="20"
+                        height="20"
+                        alt="Carousel control icon"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="modal-body text-center px-3 px-lg-5">
+                  <p class="pc-text highlight mb-1">
+                    Jackland Engineering Company
+                    <span style="color: #232323;">(Ongoing)</span>
+                  </p>
+                  <div class="text-right">
+                    <button
+                      type="button"
+                      class="btn btn-mdb-color btn-sm ml-0"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="modal fade"
+            id="algoraModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div
+              class="modal-dialog modal-dialog-centered modal-lg"
+              role="document"
+            >
+              <div class="modal-content">
+                <div class="modal-header mb-2 p-0">
+                  <div
+                    id="carousel3"
+                    class="carousel slide"
+                    data-ride="carousel"
+                    data-interval="2000"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          class="d-block w-100"
+                          src="img/algora-1.jpg"
+                          alt="First slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/algora-2.jpg"
+                          alt="Second slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/algora-3.jpg"
+                          alt="Third slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/algora-4.jpg"
+                          alt="Fourth slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/algora-5.jpg"
+                          alt="Fifth slide"
+                        />
+                      </div>
+                    </div>
+                    <a
+                      class="carousel-control-prev"
+                      href="#carousel3"
+                      role="button"
+                      data-slide="prev"
+                    >
+                      <img
+                        src="img/svg/left-control.svg"
+                        width="20"
+                        height="20"
+                        alt="Carousel control icon"
+                      />
+                    </a>
+                    <a
+                      class="carousel-control-next"
+                      href="#carousel3"
+                      role="button"
+                      data-slide="next"
+                    >
+                      <img
+                        src="img/svg/right-control.svg"
+                        width="20"
+                        height="20"
+                        alt="Carousel control icon"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="modal-body text-center px-3 px-lg-5">
+                  <p class="pc-text highlight mb-1">
+                    Algora Solutions
+                    <span style="color: #232323;">(Mock-up)</span>
+                  </p>
+                  <div class="text-right">
+                    <button
+                      type="button"
+                      class="btn btn-mdb-color btn-sm ml-0"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="modal fade"
+            id="cmeModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div
+              class="modal-dialog modal-dialog-centered modal-lg"
+              role="document"
+            >
+              <div class="modal-content">
+                <div class="modal-header mb-2 p-0">
+                  <div
+                    id="carousel4"
+                    class="carousel slide"
+                    data-ride="carousel"
+                    data-interval="2000"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          class="d-block w-100"
+                          src="img/paper-1.jpg"
+                          alt="First slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/paper-2.jpg"
+                          alt="Second slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="img/paper-3.jpg"
+                          alt="Third slide"
+                        />
+                      </div>
+                    </div>
+                    <a
+                      class="carousel-control-prev"
+                      href="#carousel4"
+                      role="button"
+                      data-slide="prev"
+                    >
+                      <img
+                        src="img/svg/left-control.svg"
+                        width="20"
+                        height="20"
+                        alt="Carousel control icon"
+                      />
+                    </a>
+                    <a
+                      class="carousel-control-next"
+                      href="#carousel4"
+                      role="button"
+                      data-slide="next"
+                    >
+                      <img
+                        src="img/svg/right-control.svg"
+                        width="20"
+                        height="20"
+                        alt="Carousel control icon"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="modal-body text-center px-3 px-lg-5">
+                  <p class="pc-text highlight mb-1">
+                    CAD Made Easy
+                  </p>
+                  <div class="text-right">
+                    <button
+                      type="button"
+                      class="btn btn-mdb-color btn-sm ml-0"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div id="free"></div> -->
+
+      <div id="contact">
+        <section class="container">
+          <div class="d-flex justify-content-center">
+            <hr class="top-line mr-2" />
+            <h3 class="section-title">Contact Us</h3>
+          </div>
+          <div class="sh-text text-center mt-2">
+            <p class="mb-0" style="font-weight: 400;">
+              Reach us through the following channels. We are always happy to
+              engage!
+            </p>
+          </div>
+          <div class="d-flex justify-content-center mt-4">
+            <a
+              href="https://wa.me/2349094579350"
+              target="_blank"
+              class="icon-link"
+            >
+              <div class="ring"><i class="fab fa-whatsapp"></i></div>
+              <p class="mt-2 mb-0">Whatsapp</p>
+            </a>
+            <a href="#" class="icon-link" target="_blank">
+              <div class="ring"><i class="fab fa-twitter"></i></div>
+              <p class="mt-2 mb-0">Twitter</p>
+            </a>
+            <a href="#" class="icon-link" target="_blank">
+              <div class="ring"><i class="fab fa-linkedin-in"></i></div>
+              <p class="mt-2 mb-0">LinkedIn</p>
+            </a>
+          </div>
+
+          <div class="col-12 col-lg-8 mx-auto mt-5 px-0">
+            <form
+              id="contact-form"
+              name="contact-form"
+              action="mail.php"
+              method="POST"
+            >
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      class="form-control"
+                    />
+                    <label for="name" class="">Name</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input
+                      type="text"
+                      id="email"
+                      name="email"
+                      class="form-control"
+                    />
+                    <label for="email" class="">Email</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <input
+                      type="text"
+                      id="subject"
+                      name="subject"
+                      class="form-control"
+                    />
+                    <label for="subject" class="">Subject</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form">
+                    <textarea
+                      type="text"
+                      id="message"
+                      name="message"
+                      rows="5"
+                      class="form-control md-textarea"
+                    ></textarea>
+                    <label for="message">Message</label>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <button
+                  class="btn btn-lumos ml-0"
+                  onclick="validateForm();"
+                  type="submit"
+                >
+                  Send
+                </button>
+              </div>
+            </form>
+          </div>
+        </section>
       </div>
     </div>
+    <!--Footer-->
+    <footer class="page-footer text-center">
+      <div class="footer-copyright py-5">
+        <div class="container d-flex flex-column justify-content-center">
+          <div
+            class="text-center mt-2 col-md-9 col-lg-7 col-xl-6 mx-auto px-0 px-md-2"
+          >
+            <h3 class="s-text">
+              Subscribe for news and updates.
+            </h3>
+            <div class="input-group mb-5 mx-0 px-0 px-md-5">
+              <input
+                type="text"
+                id="subscription-email"
+                name="email"
+                class="form-control form-control-medium"
+                placeholder="Email"
+                aria-label="Email"
+                aria-describedby="button-addon2"
+              />
+              <div class="input-group-append">
+                <button
+                  class="btn btn-lumos btn-sm m-0"
+                  type="button"
+                  id="MaterialButton-addon2"
+                  onclick="validateSubForm();"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <small>
+              <p class="text-grey mb-0 mr-1">
+                &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+              </p>
+            </small>
+            <small>
+              <p class="text-grey mb-0 mr-2">Lumos Studio</p>
+            </small>
+            <small>
+              <p class="text-grey mb-0">|</p>
+            </small>
+            <small>
+              <p class="text-grey mb-0 ml-2">All Rights Reserved</p>
+            </small>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--/.Footer-->
 
-    <a href="#home" id="top-btn" class="btn top-btn"><i class="fas fa-angle-up fas-special"></i></a>
-  </div>
-
-  <!-- Project Code-->
-
-
-
-  <!-- JQuery -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/js/mdb.min.js"></script>
-  <!-- Your custom scripts (optional) -->
-  <script type="text/javascript" src="js/active.js"></script>
-  <!-- AOS -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- JQuery -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <!-- Bootstrap tooltips -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
+    ></script>
+    <!-- Bootstrap core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"
+    ></script>
+    <!-- MDB core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"
+    ></script>
+    <!-- Custom Script -->
+    <script type="text/javascript" src="js/active.js"></script>
+    <!-- Animation Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        duration: 1800,
+      });
+    </script>
+  </body>
   <script>
-    AOS.init({
-      once: true,
-      duration: 1800,
+    $(document).ready(function () {
+      $(this).scrollTop(0);
     });
   </script>
-
-</body>
-
 </html>
