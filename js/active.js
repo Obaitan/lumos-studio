@@ -127,3 +127,36 @@ function validateSubForm() {
     },
   });
 }
+
+// To open and close sidebar
+function toggleNav() {
+  var e = document.getElementById("nav");
+  if (e.style.width == "250px") {
+    e.style.width = "0px";
+  } else {
+    e.style.width = "250px";
+  }
+}
+
+// Closing sidebar by menu item clicks and by clicking outside sidebar on screens less than 1025px
+var width = [0, 1025];
+function closeNav() {
+  if (window.innerWidth > width[0] && window.innerWidth < width[1]) {
+    $(function () {
+      $(".nav-link").on("click", function (event) {
+        event.stopPropagation();
+        event.stopImmediatePropagation();
+        document.getElementById("nav").style.width = "0px";
+        
+      });
+
+      $(".app-wrapper").on("click", function (event) {
+        document.getElementById("nav").style.width = "0px";
+        
+      });
+    });
+  }
+}
+
+window.onresize = closeNav;
+closeNav();

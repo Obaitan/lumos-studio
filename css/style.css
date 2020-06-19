@@ -73,8 +73,74 @@ body {
   top: 0;
   right: 0;
   overflow-x: hidden;
+  padding: 0;
+}
+
+.nc-wrap {
+  /* margin: 0 auto; */
   padding: 3rem 0.5rem;
 }
+
+#menu-toggle .bar,
+.bar2 {
+  width: 30px;
+  height: 3px;
+  background-color: #fa6800;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+#menu-toggle {
+  position: fixed;
+  top: 25px;
+  right: 35px;
+  /* margin: 0 auto; */
+  cursor: pointer;
+  z-index: 150;
+}
+
+.bar2 {
+  width: 21px;
+  height: 3px;
+}
+
+/* .mobile-menu.is-active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.mobile-menu.is-active .bar:nth-child(1) {
+  -webkit-transform: translateY(7px) rotate(45deg);
+  -ms-transform: translateY(7px) rotate(45deg);
+  -o-transform: translateY(7px) rotate(45deg);
+  transform: translateY(7px) rotate(45deg);
+}
+
+.mobile-menu.is-active .bar:nth-child(3) {
+  -webkit-transform: translateY(-7px) rotate(-45deg);
+  -ms-transform: translateY(-7px) rotate(-45deg);
+  -o-transform: translateY(-7px) rotate(-45deg);
+  transform: translateY(-7px) rotate(-45deg);
+} */
+
+/* CSS Rule To Apply */
+/* .menu-toggle:nth-child(1) {
+  -webkit-transform: translateY(7px) rotate(45deg);
+  -ms-transform: translateY(7px) rotate(45deg);
+  -o-transform: translateY(7px) rotate(45deg);
+  transform: translateY(7px) rotate(45deg);
+}
+
+.menu-toggle:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle:nth-child(3) {
+  -webkit-transform: translateY(-7px) rotate(-45deg);
+  -ms-transform: translateY(-7px) rotate(-45deg);
+  -o-transform: translateY(-7px) rotate(-45deg);
+  transform: translateY(-7px) rotate(-45deg);
+} */
 
 ul {
   padding: 0;
@@ -427,6 +493,53 @@ form {
 
 .page-footer {
   background-color: #232323;
+}
+
+/* Media Queries */
+@media (max-width: 1025px) {
+  .nav {
+    background-color: rgba(255, 255, 255, 0.94);
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    padding: 0;
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transform: translate3d;
+    -moz-transform: translate3d;
+    -o-transform: translate3d;
+    -ms-transform: translate3d;
+    transform: translate3d;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+  }
+
+  .nc-wrap {
+    margin: 3rem 1.5rem;
+    padding: 3rem 0.5rem;
+  }
+
+  .active-menu-item:before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 17px;
+    left: 25px;
+    background-color: #232323;
+    opacity: 0.5;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1200px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+@media (max-width: 768px) {
 }
 
 @media (max-width: 575px) {
