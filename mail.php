@@ -29,6 +29,6 @@ $content="From: $name \nEmail: $email \nMessage: $message";
 $recipient = "elero.oba@gmail.com";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");
-print json_encode(array('message' => 'Email successfully sent!', 'code' => 1));
+print json_encode(array('message' => 'Email successfully sent! Thanks for reaching us.', 'code' => 1));
 exit();
 ?>
