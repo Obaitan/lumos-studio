@@ -502,6 +502,57 @@ form {
   background-color: #232323;
 }
 
+/* 404 Page */
+#backdrop {
+  position: relative;
+  width: 100%;
+  height: 94vh;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  padding: 0;
+  z-index: 0;
+}
+
+#backdrop::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../img/error-backdrop2.jpg");
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.error-bold {
+  font-family: "Rubik", sans-serif;
+  font-size: 5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #232323;
+}
+
+.error-text1,
+.error-text2 {
+  font-family: "Arimo", sans-serif;
+  color: #fa6800;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.025em;
+}
+
+.error-text2 {
+  font-size: 1.3rem;
+  text-transform: none;
+  color: #232323;
+}
+
 /* Media Queries */
 @media (max-width: 1025px) {
   .nav {
@@ -549,6 +600,19 @@ form {
 @media (max-width: 768px) {
   #menu-toggle {
     right: 25px;
+  }
+  .error-bold {
+    font-size: 3.75rem;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .error-text1,
+  .error-text2 {
+    font-size: 1.65rem;
+  }
+
+  .error-text2 {
+    font-size: 1rem;
   }
 }
 
@@ -618,5 +682,15 @@ form {
 
   .s-text {
     font-size: 1.1rem;
+  }
+
+  .error-bold {
+    font-size: 2.15rem;
+    margin-bottom: 1rem !important;
+  }
+
+  .error-text1,
+  .error-text2 {
+    font-size: 0.91rem;
   }
 }

@@ -102,31 +102,31 @@ function validateForm() {
   });
 }
 
-// Subscription Email Validation
-function validateSubForm() {
-  document.getElementById("status").innerHTML = "Sending...";
-  formData = {
-    email: $("input[name=email]").val(),
-  };
+// // Subscription Email Validation
+// function validateSubForm() {
+//   document.getElementById("status").innerHTML = "Sending...";
+//   formData = {
+//     email: $("input[name=email]").val(),
+//   };
 
-  $.ajax({
-    url: "subscription.php",
-    type: "POST",
-    data: formData,
-    success: function (data, textStatus, jqXHR) {
-      $("#status").text(data.message);
-      if (data.code)
-        //If email address was sent successfully, reset email field.
-        $("#subscription-email")
-          .closest("form")
-          .find("input[type=text]")
-          .val("");
-    },
-    error: function (jqXHR, textStatus, errorThrown) {
-      $("#status").text(jqXHR);
-    },
-  });
-}
+//   $.ajax({
+//     url: "subscription.php",
+//     type: "POST",
+//     data: formData,
+//     success: function (data, textStatus, jqXHR) {
+//       $("#status").text(data.message);
+//       if (data.code)
+//         //If email address was sent successfully, reset email field.
+//         $("#subscription-email")
+//           .closest("form")
+//           .find("input[type=text]")
+//           .val("");
+//     },
+//     error: function (jqXHR, textStatus, errorThrown) {
+//       $("#status").text(jqXHR);
+//     },
+//   });
+// }
 
 // To open and close sidebar
 function toggleNav() {
@@ -147,12 +147,10 @@ function closeNav() {
         event.stopPropagation();
         event.stopImmediatePropagation();
         document.getElementById("nav").style.width = "0px";
-        
       });
 
       $(".app-wrapper").on("click", function (event) {
         document.getElementById("nav").style.width = "0px";
-        
       });
     });
   }
