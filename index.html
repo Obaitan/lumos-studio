@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-172425506-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-172425506-1");
+    </script>
+
     <meta charset="UTF-8" />
     <meta
       name="viewport"
@@ -9,13 +24,13 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta
       name="description"
-      content="Lumos Studio is an information technology solutions company that provides simple, high-impact web development and branding solutions. Our mission is to bring the benefits of information technology to small business owners and all else in need of these solutions."
+      content="We provide simple, high-impact web design and branding solutions through our budget-friendly services and innovative design approach. Partner with us today."
     />
     <meta
       name="keywords"
-      content="Lumos Studio, Web, Website, Webapp, Mobile, Tablet, Digital, Design, Online Payment, IT, Software Development, Solutions, eCommerce, WordPress, USSD, Corporate Branding, Innovation, Creativity, Ideas, HTML5, CSS, JavaScript, JQuery, Ajax, Python, Django, PHP, Marketing, Email, Information Technology, Programming, Bootstrap"
+      content="Web Design, Software Development, Branding"
     />
-    <title>Lumos Studio | IT Solutions Company</title>
+    <title>Lumos Studio | Web Design And Branding</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="img/Ls-flavicon.png" />
     <!-- Font Awesome -->
@@ -30,10 +45,6 @@
     />
     <link
       href="https://fonts.googleapis.com/css?family=Heebo&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Coustar&display=swap"
       rel="stylesheet"
     />
     <link
@@ -99,7 +110,7 @@
             >
               <img src="img/svg/logo.svg" class="w-50" alt="Company logo" />
             </div>
-            <div class="px-0" data-aos="fade-up" data-aos-delay="900">
+            <div class="px-0" data-aos="fade-up" data-aos-delay="800">
               <p class="bold mb-0">
                 Lumos <span class="text-white">Studio</span>
               </p>
@@ -255,7 +266,7 @@
               <div class="px-3 d-none d-lg-block">
                 <div class="lumos"></div>
               </div>
-              <div class="p-3" data-aos="zoom-in" data-aos-delay="750">
+              <div class="p-1 p-md-3" data-aos="zoom-in" data-aos-delay="750">
                 <div class="pale">
                   <div>
                     <img
@@ -271,7 +282,7 @@
                 </div>
               </div>
 
-              <div class="p-3" data-aos="zoom-in" data-aos-delay="1250">
+              <div class="p-1 p-md-3" data-aos="zoom-in" data-aos-delay="1150">
                 <div class="pale">
                   <div>
                     <img
@@ -289,11 +300,7 @@
             </div>
 
             <div class="col-lg-6 p-0">
-              <div
-                class="px-3 pb-3 pt-3 pt-lg-0"
-                data-aos="zoom-in"
-                data-aos-delay="1750"
-              >
+              <div class="p-1 p-md-3" data-aos="zoom-in" data-aos-delay="1550">
                 <div class="pale">
                   <div>
                     <img
@@ -309,7 +316,7 @@
                 </div>
               </div>
 
-              <div class="p-3" data-aos="zoom-in" data-aos-delay="2250">
+              <div class="p-1 p-md-3" data-aos="zoom-in" data-aos-delay="1950">
                 <div class="pale">
                   <div>
                     <img
@@ -789,88 +796,136 @@
               <div class="ring"><i class="fab fa-whatsapp"></i></div>
               <p class="mt-2 mb-0">Whatsapp</p>
             </a>
-            <a href="#" class="icon-link" target="_blank">
+            <a
+              href="https://twitter.com/lumos_soft"
+              class="icon-link"
+              target="_blank"
+            >
               <div class="ring"><i class="fab fa-twitter"></i></div>
               <p class="mt-2 mb-0">Twitter</p>
             </a>
-            <a href="#" class="icon-link" target="_blank">
+            <a
+              href="https://www.linkedin.com/company/66602771/admin/"
+              class="icon-link"
+              target="_blank"
+            >
               <div class="ring"><i class="fab fa-linkedin-in"></i></div>
               <p class="mt-2 mb-0">LinkedIn</p>
             </a>
           </div>
 
-          <div
-            class="col-12 col-lg-8 mx-auto mt-5 px-0"
-            data-aos="zoom-in"
-            data-aos-delay="800"
-          >
-            <form
-              id="contact-form"
-              name="contact-form"
-              action="mail.php"
-              method="POST"
-            >
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="md-form mb-0">
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      class="form-control"
-                    />
-                    <label for="name" class="">Name</label>
+          <div class="d-flex justify-content-center flex-wrap mt-5">
+            <div class="col-md-7 px-0" data-aos="zoom-in" data-aos-delay="800">
+              <form
+                id="contact-form"
+                name="contact-form"
+                action="mail.php"
+                method="POST"
+              >
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        class="form-control"
+                      />
+                      <label for="name" class="">Name</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input
+                        type="text"
+                        id="email"
+                        name="email"
+                        class="form-control"
+                      />
+                      <label for="email" class="">Email</label>
+                    </div>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="md-form mb-0">
-                    <input
-                      type="text"
-                      id="email"
-                      name="email"
-                      class="form-control"
-                    />
-                    <label for="email" class="">Email</label>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="md-form mb-0">
+                      <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        class="form-control"
+                      />
+                      <label for="subject" class="">Subject</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="md-form">
+                      <textarea
+                        type="text"
+                        id="message"
+                        name="message"
+                        rows="5"
+                        class="form-control md-textarea"
+                      ></textarea>
+                      <label for="message">Message</label>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <button
+                    class="btn btn-lumos ml-0"
+                    onclick="validateForm();"
+                    type="submit"
+                  >
+                    Send
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <div class="col-md-5 mt-3 mt-md-0 px-0 px-md-3">
+              <div class="square h-100">
+                <div class="d-flex">
+                  <div class="mr-3">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div>
+                    <p class="caption2 mb-1">Address</p>
+                    <p class="ad-text mb-0">
+                      21, Raji Oba Street, Alimosho, off Ipaja Road, Lagos
+                    </p>
+                  </div>
+                </div>
+                <hr class="divider" />
+                <div class="d-flex">
+                  <div class="mr-3">
+                    <i class="fas fa-phone"></i>
+                  </div>
+                  <div>
+                    <p class="caption2 mb-1">
+                      Call Us
+                    </p>
+                    <p class="ad-text mb-0">(+234) 909 457 9350</p>
+                  </div>
+                </div>
+                <hr class="divider" />
+                <div class="d-flex">
+                  <div class="mr-3">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div>
+                    <p class="caption2 mb-1">
+                      Web
+                    </p>
+                    <p class="ad-text mb-0">
+                      hello@lumosstudio.tech
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="md-form mb-0">
-                    <input
-                      type="text"
-                      id="subject"
-                      name="subject"
-                      class="form-control"
-                    />
-                    <label for="subject" class="">Subject</label>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="md-form">
-                    <textarea
-                      type="text"
-                      id="message"
-                      name="message"
-                      rows="5"
-                      class="form-control md-textarea"
-                    ></textarea>
-                    <label for="message">Message</label>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <button
-                  class="btn btn-lumos ml-0"
-                  onclick="validateForm();"
-                  type="submit"
-                >
-                  Send
-                </button>
-              </div>
-            </form>
+            </div>
           </div>
         </section>
       </div>
