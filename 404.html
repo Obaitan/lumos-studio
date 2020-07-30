@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-172425506-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-172425506-1");
+    </script>
+
     <meta charset="UTF-8" />
     <meta
       name="viewport"
@@ -9,11 +24,11 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta
       name="description"
-      content="Lumos Studio is an information technology solutions company that provides simple, high-impact web development and branding solutions. Our mission is to bring the benefits of information technology to small business owners and all else in need of these solutions."
+      content="We provide simple, high-impact web design and branding solutions through our budget-friendly services and innovative design approach. Partner with us today."
     />
     <meta
       name="keywords"
-      content="Lumos Studio, Web, Website, Webapp, Mobile, Tablet, Digital, Design, Online Payment, IT, Software Development, Solutions, eCommerce, WordPress, USSD, Corporate Branding, Innovation, Creativity, Ideas, HTML5, CSS, JavaScript, JQuery, Ajax, Python, Django, PHP, Marketing, Email, Information Technology, Programming, Bootstrap"
+      content="Web Design, Software Development, Branding"
     />
     <title>Lumos Studio | IT Solutions Company</title>
     <!-- Favicon -->
@@ -76,7 +91,8 @@
                 Looks like you have lost your way!
               </p>
               <p class="error-text2 d-none d-md-block">
-                The URL may be broken or wrong.
+                The page is unavailable.<br />Perhaps the URL is broken or
+                wrong.
               </p>
             </div>
             <div
@@ -105,34 +121,6 @@
     <footer class="page-footer text-center">
       <div class="footer-copyright py-5">
         <div class="container d-flex flex-column justify-content-center">
-          <div
-            class="text-center mt-2 col-md-9 col-lg-7 col-xl-6 mx-auto px-0 px-md-2"
-          >
-            <h3 class="s-text">
-              Subscribe for news and updates.
-            </h3>
-            <div class="input-group mb-5 mx-0 px-0 px-md-5">
-              <input
-                type="text"
-                id="subscription-email"
-                name="email"
-                class="form-control form-control-medium"
-                placeholder="Email"
-                aria-label="Email"
-                aria-describedby="button-addon2"
-              />
-              <div class="input-group-append">
-                <button
-                  class="btn btn-lumos btn-sm m-0"
-                  type="button"
-                  id="MaterialButton-addon2"
-                  onclick="validateSubForm();"
-                >
-                  Subscribe
-                </button>
-              </div>
-            </div>
-          </div>
           <div class="d-flex justify-content-center">
             <small>
               <p class="text-grey mb-0 mr-1">
@@ -177,8 +165,6 @@
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"
     ></script>
-    <!-- Custom Script -->
-    <script type="text/javascript" src="js/active.js"></script>
     <!-- Animation Script -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
@@ -188,9 +174,4 @@
       });
     </script>
   </body>
-  <script>
-    $(document).ready(function () {
-      $(this).scrollTop(0);
-    });
-  </script>
 </html>

@@ -101,7 +101,6 @@ body {
   position: fixed;
   top: 25px;
   right: 35px;
-  /* margin: 0 auto; */
   cursor: pointer;
   z-index: 150;
 }
@@ -460,7 +459,7 @@ ul li {
 
 .fas {
   color: white;
-  font-size: 1.5rem !important;
+  font-size: 1.25rem !important;
 }
 
 .fa-whatsapp {
@@ -517,12 +516,12 @@ form {
 
 .square {
   background-color: #fa6800;
-  padding: 3rem 4rem;
+  padding: 3rem;
 }
 
 .caption2 {
   color: #232323;
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   font-weight: 500;
   text-transform: capitalize;
   letter-spacing: 0.05em;
@@ -574,7 +573,7 @@ form {
   font-size: 5rem;
   font-weight: 600;
   text-transform: uppercase;
-  color: #232323;
+  color: #b4b4b4;
 }
 
 .error-text1,
@@ -588,7 +587,7 @@ form {
 }
 
 .error-text2 {
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   text-transform: none;
   color: #232323;
 }
@@ -632,6 +631,18 @@ form {
     left: 25px;
     background-color: #232323;
     opacity: 0.5;
+  }
+
+  .caption2 {
+    font-size: 1rem;
+  }
+
+  .ad-text {
+    font-size: 0.8rem;
+  }
+
+  .square {
+    padding: 3rem 2.5rem;
   }
 }
 
@@ -731,6 +742,10 @@ form {
 
   .s-text {
     font-size: 1.1rem;
+  }
+
+  .square {
+    padding: 3rem 2rem;
   }
 
   .error-bold {
