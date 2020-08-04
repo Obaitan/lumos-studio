@@ -453,16 +453,21 @@ ul li {
   justify-content: flex-start;
   padding: 0;
 }
-.fab {
-  font-size: 1.4rem !important;
-}
 
-.fas {
+.fa-map-marker-alt,
+.fa-phone,
+.fa-globe {
   color: white;
   font-size: 1.25rem !important;
 }
 
-.fa-whatsapp {
+.fab {
+  font-size: 1.4rem !important;
+}
+
+.fa-whatsapp,
+.fa-envelope,
+.fa-globe {
   font-size: 1.55rem !important;
 }
 
@@ -517,6 +522,14 @@ form {
 .square {
   background-color: #fa6800;
   padding: 3rem;
+}
+
+.part {
+  display: flex;
+  justify-content: center;
+  background-color: #fa6800;
+  padding: 3rem 1.8rem;
+  border: 1px solid #f87a21;
 }
 
 .caption2 {
@@ -746,6 +759,25 @@ form {
 
   .square {
     padding: 3rem 2rem;
+  }
+
+  .fab {
+    font-size: 1.2rem !important;
+  }
+
+  .fa-whatsapp,
+  .fa-envelope {
+    font-size: 1.35rem !important;
+  }
+
+  .icon-link {
+    margin: 0.5rem 0.75rem;
+    font-size: 0.87rem;
+  }
+
+  .ring {
+    height: 3.5rem;
+    width: 3.5rem;
   }
 
   .error-bold {
