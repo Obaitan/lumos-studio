@@ -1,4 +1,4 @@
-# Portfolio Website
+# Sample Web Design Studio Website
 
 This is a sample single page website for a web design studio.
 
